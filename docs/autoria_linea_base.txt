@@ -1,2 +1,9 @@
+Fecha: 
+04/11/2026
+
+Comandos usados: 
+for f in admin/admin.js consultor/consultor.js js/databaseMongoDB.js js/auth.js api/index.js api/middleware/auth.js api/routes/auth.js api/routes/users.js api/routes/companies.js api/routes/projects.js api/routes/supports.js api/routes/modules.js api/routes/assignments.js api/routes/projectAssignments.js api/routes/taskAssignments.js api/routes/tarifario.js api/routes/reports.js api/models/*.js js/modules/users/*.js; do git blame -w -M -C --line-porcelain tesis-linea-base -- "$f" 2>/dev/null; done | grep "^author " | sort | uniq -c | sort -rn
+
+Resultados:
 16336 author TSMJosem
 8530 author Edson

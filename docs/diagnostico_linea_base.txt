@@ -1,0 +1,10 @@
+Fecha: 
+09/11/2026
+
+Comandos usados: 
+1. git worktree add ../linea-base tesis-linea-base (crear una carpeta aparte con el código base)
+2. chmod +x docs/metricas/ejecutar.sh (dar permisos de ejecución al script)
+3. python3 -m pip install --user matplotlib (instalación de librerías de gráficas de python)
+4. /docs/metricas/ejecutar.sh ../linea-base ../metricas-resultados/linea-base (ejecución de diagnóstico)
+
+Resultados: 
